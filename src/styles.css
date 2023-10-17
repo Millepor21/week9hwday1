@@ -1,0 +1,60 @@
+
+body {
+    background-color: black;
+    color: white;
+  }
+  
+.header {
+    column-gap: 10px;
+    border-width: 0px 5px 5px 5px;
+    border-style: solid;
+    border-color: hotpink;
+    background-color: black;
+    width: 100%;
+  }
+
+.appointments-title {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+  color: black;
+}
+
+.appointment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20%;
+  text-align: center;
+  padding: 15px;
+  margin: 25px;
+  color: black
+}
+
+.appointments-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.dashboard-background {
+  background-color: aqua
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: aqua;
+  color: black;
+}
+
+.form>form>input {
+  margin-bottom: 10px;
+}
+
+input[type=text] {
+  border: 3px solid hotpink
+}
