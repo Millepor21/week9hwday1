@@ -5,8 +5,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import Header from "./components/Header";
 import DashboardPage from "./pages/DashboardPage";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
+import PatientLoginPage from "./pages/PatientLoginPage";
+import PatientRegisterPage from "./pages/PatientRegisterPage";
+import Logout from "./components/Logout";
 
 function App(): JSX.Element {
   return (
@@ -15,8 +16,9 @@ function App(): JSX.Element {
         <Header />
         <Routes>
           <Route path="/" element={<DashboardPage />} />
-          <Route path="/register" element={<RegisterPage />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register/patient" element={<PatientRegisterPage />} />
+          <Route path="/login/patient" element={<PatientLoginPage />} />
+          <Route path="/logout" element={<Logout />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>

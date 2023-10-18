@@ -1,10 +1,10 @@
 import Body from "../components/Body";
-import LoginForm from "../components/LoginForm";
+import PatientLoginForm from "../components/PatientLoginForm";
 
 export default function LoginPage() {
   return (
     <Body dashboard={false}>
-        <LoginForm />
+        <PatientLoginForm />
     </Body>
   )
 }

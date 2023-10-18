@@ -1,10 +1,10 @@
 import Body from "../components/Body";
-import RegisterForm from "../components/RegisterForm";
+import PatientRegisterForm from "../components/PatientRegisterForm";
 
 export default function RegisterPage() {
   return (
     <Body dashboard={false}>
-        <RegisterForm />
+        <PatientRegisterForm />
     </Body>
   )
 }
